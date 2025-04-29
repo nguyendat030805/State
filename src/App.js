@@ -5,10 +5,13 @@ import AreaRectangle from './components/AreaRectangle';
 import Data from './components/Data';
 import StudentList from './components/Map';
 import Map from './components/Map';
+import Form from './components/Form';
+import FormDatPhong from './components/FormDatPhong';
+import ThoiTrang from './components/ThoiTrang';
 
 function App() {
   return (
-    <Map></Map>
+    <ThoiTrang></ThoiTrang>
   );
 }
 
