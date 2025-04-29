@@ -1,6 +1,6 @@
-// components/ProductForm.jsx
+
 import React, { useState } from "react";
-import "../components/ComponentsStyle.css";
+import "../components/Midterm/ComponentsStyle.css";
 const ProductForm = ({ onAddProduct, nextId }) => {
     const [formData, setFormData] = useState({
         id: nextId,

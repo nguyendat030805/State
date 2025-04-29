@@ -1,8 +1,8 @@
 // pages/ThoiTrang.jsx
 import React from "react";
-import useLocalProducts from "./Hook";
-import ProductForm from "../components/ShowData";
-import ProductList from "../components/SanPham";
+import useLocalProducts from "./Midterm/Hook";
+import ProductForm from "./Midterm/ShowData";
+import ProductList from "./Midterm/SanPham";
 
 const ThoiTrang = () => {
     const { products, addProduct } = useLocalProducts();

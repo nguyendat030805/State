@@ -1,6 +1,6 @@
 // components/ProductList.jsx
 import React from "react";
-import "../components/ComponentsStyle.css";
+import "../components/Midterm/ComponentsStyle.css";
 
 const ProductList = ({ products }) => {
     return (
